@@ -1,0 +1,148 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="courses.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav class="navigation">
+        <input type="checkbox" id="burger" class="burger">
+        <label for="burger"></label>
+        <a href="main.html" class="logo">
+            <img src="pictures/icon5.png" class="logo_img" height="50" width="50">
+            <span>Блокчейн-технологии</span>
+        </a>
+        <ul class="menu-list">
+            <li class="menu-item"><a href="main.html">Главная</a></li>
+            <li class="menu-item"><a href="about.html">О сервисе</a></li>
+            <li class="menu-item"><a href="bitcoin.html">Биткоин</a></li>
+            <li class="menu-item"><a href="courses.html">Курсы</a></li>
+            <li class="menu-item"><a href="lk.html">Войти</a></li>
+        </ul>
+    </nav>
+    <div class="coursesPage">
+        <div class="Text">
+            <h2 class="Title">Наши курсы</h2>
+            <p class="Paragraph1">
+                <img src="pictures/bart.gif" class="bart" height="30%" width="30%">
+                Хотите стать экспертом в области блокчейн технологий? 
+                Наш обучающий курс предоставит вам все необходимые знания 
+                и навыки для успешной карьеры в этой инновационной области. 
+                Мы предлагаем качественное обучение от опытных специалистов, 
+                практические задания и проекты, а также доступ к актуальной 
+                информации и трендам в мире блокчейн. Присоединяйтесь к нам и 
+                станьте частью быстрорастущей индустрии блокчейн!
+            </p>
+            <p class="Paragraph2">
+                Наш курс по технологии блокчейн подойдет как начинающим, 
+                так и опытным специалистам, которые хотят углубить свои знания. 
+                Мы предлагаем гибкий график обучения, доступ к онлайн-ресурсам и 
+                возможность консультироваться с нашими экспертами. После 
+                завершения курса вы получите сертификат, подтверждающий вашу 
+                компетенцию в области блокчейн технологий. Инвестируйте в свое 
+                образование и будущее уже сегодня – присоединяйтесь к нашему курсу 
+                и станьте специалистом в сфере блокчейн!
+            </p>
+        </div>
+        <table class="coursesTable">
+            <tr class="hRow">
+                <th>Доступно курсов: 5</th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr></tr>
+            <tr class="tRow">
+                <td>1. Основы блокчейна</td>
+                <td>25 мин.</td>
+                <td class="yelText" onclick="addToCart('Blockchain fundamentals', 100)">Добавить курс в корзину</td>
+            </tr>
+            <tr></tr>
+            <tr class="tRow">
+                <td>2. Основы криптографии</td>
+                <td>21 мин.</td>
+                <td class="yelText" onclick="addToCart('Crypto fundamentals', 150)">Добавить курс в корзину</td>
+            </tr>
+            <tr></tr>
+            <tr class="tRow">
+                <td>3. Основы трейдинга</td>
+                <td>20 мин.</td>
+                <td class="yelText" onclick="addToCart('Trading fundamentals', 200)">Добавить курс в корзину</td>
+            </tr>
+            <tr></tr>
+            <tr class="tRow">
+                <td>4. Web3 & метавселенные</td>
+                <td>27 мин.</td>
+                <td class="yelText" onclick="addToCart('Web3 & metaverse', 250)">Добавить курс в корзину</td>
+            </tr>
+            <tr></tr>
+            <tr class="tRow">
+                <td>5. Децентрализация</td>
+                <td>19 мин.</td>
+                <td class="grText">Cкоро</td>
+            </tr>
+            <tr></tr>
+        </table>
+        <div class="shopField">
+            <div class="cart"></div>
+            <div class="buttonsRow">
+                <button class="trashbtn" type="button" onclick="clearCart()">Очистить корзину</button>
+                <button class="trashbtn" type="button" onclick="clearCart()">Оформить покупку</button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p class="adress">
+                    г. Москва, пр. Вернадского, д. 78
+                </p>
+                <p class="phone-number">
+                    + 7 (926) 296-07-99
+                </p>
+                <p class="mail">
+                    blockchain@mail.ru
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>О сайте</h4>
+                <p class="example_1">
+                    Наш сайт - это источник всесторонней информации о
+                    блокчейн технологиях. Мы предлагаем обзоры,
+                    новости, статьи и руководства для понимания и
+                    применения этой инновационной системы. Узнайте о
+                    преимуществах блокчейна, его потенциальных
+                    применениях и будущих тенденциях в этой области.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Быстрые ссылки</h4>
+                <ul>
+                    <li><a href="main.html">Главная</a></li>
+                    <li><a href="about.html">О сервисе</a></li>
+                    <li><a href="bitcoin.html">Биткоин</a></li>
+                    <li><a href="courses.html">Курсы</a></li>
+                    <li><a href="lk.html">Войти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Соцсети</h4>
+                <p>Подпишитесь на рассылку, чтобы не пропустить ничего интересного</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                </div>
+                <div class="subscribe">
+                    <input placeholder="Ваш E-mail">   
+                </div>
+            </div>
+        </div>
+   </footer>
+   <div class="subfooter">© 2023 Yakobchuk Kirill. All Right Reserved.</div>
+   <script src="courses.js"></script>
+</body>
+</html>

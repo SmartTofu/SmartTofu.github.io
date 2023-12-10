@@ -1,0 +1,107 @@
+.gridCatalog {
+    padding: 20px;
+    background-color: #10161c;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+  
+.gridCatalog>h2{
+    text-align: center;
+    font-size: 27px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+  
+.gridCatalogContainer {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-auto-rows: 180px;
+    grid-auto-flow: dense;
+}
+  
+.gridCatalogContainer>div {
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 15px;
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+  
+.horizontal {
+    grid-column: span 2;
+}
+  
+.gridCatalogContainer>div:nth-child(1):hover {
+    background: linear-gradient(to top left, #ac89ce, #a186d6);
+}
+  
+.gridCatalogContainer>div:nth-child(1) {
+    background:#404040;
+}
+  
+.gridCatalogContainer>div:nth-child(2):hover {
+    background: linear-gradient(to top left, #8bcbee, #73bac8);
+}
+  
+.gridCatalogContainer>div:nth-child(2) {
+    background:#404040
+}
+  
+.gridCatalogContainer>div:nth-child(3):hover {
+    background: linear-gradient(to top left, #53a76e, #3eaa60);
+}
+  
+.gridCatalogContainer>div:nth-child(3) {
+    background:#404040;
+}
+  
+.gridCatalogContainer>div:nth-child(4):hover {
+    background: linear-gradient(to top left, #bcb551, #cac24e);
+}
+  
+.gridCatalogContainer>div:nth-child(4) {
+    background:#404040;
+}
+  
+.gridCatalogContainer>div:nth-child(5):hover {
+    background: linear-gradient(to top left, #a5437b, #b34361);
+}
+  
+.gridCatalogContainer>div:nth-child(5) {
+    background:#404040;
+}
+  
+.gridCatalogContainer>div:nth-child(6):hover {
+    background: linear-gradient(to top left, #6b88e6, #557af1);
+}
+  
+.gridCatalogContainer>div:nth-child(6) {
+    background:#404040;
+}
+  
+.gridCatalogContainer>div:nth-child(7):hover {
+    background: linear-gradient(to top left, #ad7433, #c9883e);
+}
+  
+.gridCatalogContainer>div:nth-child(7) {
+    background:#404040;
+}
+
+@media (max-width: 768px){
+
+    .gridCatalogContainer {
+        grid-template-columns: minmax(200px, 1fr);
+    }
+
+    .horizontal {
+        grid-column: span 1;
+    }
+
+}

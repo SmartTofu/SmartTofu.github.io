@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #3a3a3a;
+}
+
+.aboutBlock{
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0 0 0;
+    padding-top: 80px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.rap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.aboutBlock h2 {
+    margin-bottom: 20px;
+    color: #e9e9e9;
+    border-radius: 10px;
+    font-size: 32px;
+}
+
+.mainParagraphTitle {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+  
+.aboutBlock p {
+    /*font-size: 23px;*/
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 1.3;
+    color: #e9e9e9;
+}
+  
+.mainParagraph {
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 1.55;
+    margin-bottom: 0;
+    text-align: justify;
+}
+  
+.paragraphBlock {
+    display: block;
+}
+  
+.paragraphBlock > div {
+    margin-bottom: 100px;
+}
+  
+.paragraph1 {
+    display: flex;
+    justify-content: center;
+}
+  
+.paragraph1 p {
+    margin: 60px 20px 60px 0px;
+    text-align: justify;
+    font-size: 23px;
+}
+  
+.paragraph1 img {
+    width: 50%;
+    border-radius: 20px;
+}
+  
+.paragraph2 {
+    display: flex;
+    justify-content: center;
+}
+  
+.paragraph2 img {
+    width: 40%;
+    border-radius: 20px;
+}
+  
+.paragraph2 p {
+    margin: 80px 0px 60px 40px;
+    text-align: justify;
+    font-size: 23px;
+}
+  
+.paragraph3 {
+    display: flex;
+    justify-content: center;
+}
+  
+.paragraph3 p {
+    margin: 80px 40px 60px 0px;
+    text-align: justify;
+    font-size: 23px;
+}
+  
+.paragraph3 img {
+    width: 45%;
+    border-radius: 20px;
+}
+
+@media (max-width: 1000px){
+    .aboutBlock{
+        height: auto;
+    }
+
+    .mainParagraph {
+        font-size: 19px;
+    }
+
+    .aboutBlock h2 {
+        font-size: 23px;
+    }
+
+    .paragraphBlock > div {
+        margin-bottom: 20px;
+    }
+
+    .paragraph1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .paragraph1 p {
+        margin: 30px 0px;
+        font-size: 19px;
+    }
+
+    .paragraph1 img {
+        width: 100%;
+    }
+
+    .paragraph2 img {
+        width: 100%;
+    }
+
+    .paragraph2 p {
+        margin: 30px 0px;
+        font-size: 19px;
+    }
+
+    .paragraph2 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .paragraph3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .paragraph3 p {
+        margin: 30px 0px;
+        font-size: 19px;
+    }
+
+    .paragraph3 img {
+        width: 100%;
+    }
+}

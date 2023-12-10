@@ -1,0 +1,174 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="bitcoin.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <input type="checkbox" id="burger" class="burger">
+        <label for="burger"></label>
+        <a href="main.html" class="logo">
+            <img src="pictures/icon5.png" class="logo_img" height="50" width="50">
+            <span>Блокчейн-технологии</span>
+        </a>
+        <ul class="menu-list">
+            <li class="menu-item"><a href="main.html">Главная</a></li>
+            <li class="menu-item"><a href="about.html">О сервисе</a></li>
+            <li class="menu-item"><a href="bitcoin.html">Биткоин</a></li>
+            <li class="menu-item"><a href="courses.html">Курсы</a></li>
+            <li class="menu-item"><a href="lk.html">Войти</a></li>
+        </ul>
+    </nav>
+    <div class="bitcoinPage">
+        <div class="h1-wrapper">
+            <h1>Bitcoin</h1>
+        </div>
+        <div class="badges">
+            <div class="badge-wrapper">
+                <div class="badge grey">
+                    Цена Bitcoin (BTC) <br>
+                    <span class="price">$43.7 тыс.</span>
+                    <span style="color: red;">-0.30%</span>
+                </div>
+                <div class="badge grey">
+                    Рыночная капитализация <br>
+                    <span class="price">$854.3 млрд.</span>
+                </div>
+                <div class="badge grey">
+                    Объем торгов 24 ч <br>
+                    <span class="price">$14.06 млрд.</span>
+                </div>
+                <div class="badge grey">
+                    В обращении (монет) <br>
+                    <span class="price">19.57 млн.</span>
+                </div>
+            </div>
+        </div>
+        <div class="row-1">
+            <aside class="col-lg-3">
+                <div class="row-2">
+                    <div class="mb-3 col-sm-12 px-1">
+                        <div class="curses-table"> <b>Курс Биткоин сегодня</b>
+                            <table class="table mt-1">
+                                <tbody>
+                                    <tr>
+                                        <td class="w-50">к евро</td>
+                                        <td>€ 40 549</td>
+                                    </tr>
+                                    <tr>
+                                        <td>к доллару</td>
+                                        <td>$ 43 685</td>
+                                    </tr>
+                                    <tr>
+                                        <td>к гривне</td>
+                                        <td>₴ 1 606 025</td>
+                                    </tr>
+                                    <tr>
+                                        <td>к рублю</td>
+                                        <td>₽ 4 025 805</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-sm-12 col-md-6 col-lg-12 px-1">
+                        <div class="converter-wrapper">
+                            <b>Калькулятор Биткоин (BTC) к доллару</b>
+                            <div class="converter-field row mt-2">
+                                <div class="input-group col-sm-12 ">
+                                    <strong id="from_symbol">BTC</strong>
+                                    <input type="number" min="0" name="from_amount" id="from_amount" value="1"
+                                        pattern="\d*">
+                                </div>
+                                <div class="col-sm-12 mb-1" style="text-align: center"><br>
+                                    <button id="btnRevert">Revert</button>
+                                </div>
+                                <div class="input-group col-sm-12 mt-1">
+                                    <strong id="to_symbol">USD</strong>
+                                    <input type="number" min="0" name="to_amount" id="to_amount" data-price="43724"
+                                        pattern="\d*" value="43724">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script src="bitcoin.js"></script>
+                </div>
+            </aside>
+            <div class="bitcoinText">
+                <h2>Обзор BTC</h2>
+                <div>
+                    <p>Биткоин, созданный в 2008 году автором под псевдонимом Сатоши Накамото, является первой и самой
+                        известной криптовалютой. Он функционирует на основе децентрализованной сети, обеспечивающей
+                        независимость от посредников, таких как банки и правительства. Блокчейн, лежащий в основе
+                        биткоина, гарантирует безопасность, прозрачность и неизменность транзакций.</p>
+                    <p>Майнеры, которые добавляют блоки и поддерживают сеть, получают вознаграждение в виде биткоинов.
+                        Общее количество биткоинов ограничено 21 миллионом монет. Биткоин предоставляет относительную
+                        анонимность пользователям, хотя транзакции являются публичными и прозрачными.</p>
+                    <p>Биткоин широко используется для инвестиций, международных переводов и микротранзакций.</p>
+                </div>
+                <p>Максимальная стоимость за все время была 10 ноября 2021 года, цена достигла <b>69.0 тыс. долларов</b>.<br>
+                    Самая низкая цена на Биткоин за последние 10 лет была 06 июля 2013 году и
+                    составляла <b>67.8</b> долларов.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <p class="adress">
+                    г. Москва, пр. Вернадского, д. 78
+                </p>
+                <p class="phone-number">
+                    + 7 (926) 296-07-99
+                </p>
+                <p class="mail">
+                    blockchain@mail.ru
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>О сайте</h4>
+                <p class="example_1">
+                    Наш сайт - это источник всесторонней информации о
+                    блокчейн технологиях. Мы предлагаем обзоры,
+                    новости, статьи и руководства для понимания и
+                    применения этой инновационной системы. Узнайте о
+                    преимуществах блокчейна, его потенциальных
+                    применениях и будущих тенденциях в этой области.
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Быстрые ссылки</h4>
+                <ul>
+                    <li><a href="main.html">Главная</a></li>
+                    <li><a href="about.html">О сервисе</a></li>
+                    <li><a href="bitcoin.html">Биткоин</a></li>
+                    <li><a href="courses.html">Курсы</a></li>
+                    <li><a href="lk.html">Войти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Соцсети</h4>
+                <p>Подпишитесь на рассылку, чтобы не пропустить ничего интересного</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                </div>
+                <div class="subscribe">
+                    <input placeholder="Ваш E-mail">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="subfooter">© 2023 Yakobchuk Kirill. All Right Reserved.</div>
+</body>
+
+</html>
