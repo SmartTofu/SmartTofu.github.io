@@ -47,3 +47,15 @@
 }
 
 /*====================================================================================================*/
+
+@media (max-width: 950px){
+    .banner h1 {
+        color: #fff;
+        font-size: 35px;
+    }
+
+    .banner h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
