@@ -125,8 +125,8 @@ tr{
 }
   
 .trashbtn{
-    width: 50%;
-    min-width: 200px;
+    width: 45%;
+    min-width: 100px;
     text-align: center;
     height: 38px;
     border-radius: 6px;
@@ -139,7 +139,7 @@ tr{
 }
 
 .shopField{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -182,4 +182,12 @@ tr{
 
 .trashbtn:hover{
     background-color: #53515e;
+}
+
+@media screen and (max-width: 1000px){
+
+    .cart{
+        flex-direction: column;
+    }
+
 }
